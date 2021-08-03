@@ -26,6 +26,10 @@ apply plugin: 'maven-publish'
 
 version = '1.0'
 
+repositories {
+    mavenCentral()
+}
+
 publishing {
     repositories {
         maven {
